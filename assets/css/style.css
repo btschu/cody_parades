@@ -649,18 +649,18 @@ h1, h2, h3, h4, h5, h6 {
     writing-mode: vertical-lr;
     /* text-orientation: mixed; */
     text-align: center;
-    transform: rotate(-180deg);
+    /* transform: rotate(-180deg); */
     /* Legacy vendor prefixes that you probably don't need... */
     /* Safari */
-    -webkit-transform: rotate(-180deg);
+    /* -webkit-transform: rotate(-180deg); */
     /* Firefox */
-    -moz-transform: rotate(-180deg);
+    /* -moz-transform: rotate(-180deg); */
     /* IE */
-    -ms-transform: rotate(-180deg);
+    /* -ms-transform: rotate(-180deg); */
     /* Opera */
-    -o-transform: rotate(-180deg);
+    /* -o-transform: rotate(-180deg); */
     /* Internet Explorer */
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    /* filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); */
   }
 
   .row {

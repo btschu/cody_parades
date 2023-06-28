@@ -1,9 +1,3 @@
-/**
-* Template Name: TheEvent - v4.7.0
-* Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
@@ -229,3 +223,44 @@
   });
 
 })()
+
+
+// Checklist Functionality
+
+
+// Get the card-body element
+var cardBody = document.querySelector('.card-body');
+
+// Get all list items within the card-body
+var listItems = cardBody.querySelectorAll('li');
+
+// Iterate over each list item
+listItems.forEach(function(item) {
+  // Create checkbox element
+  var checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+
+  // Add checkbox before the list item text
+  item.insertBefore(checkbox, item.firstChild);
+
+  // Get the stored value from local storage
+  var storedValue = localStorage.getItem(item.textContent);
+
+  // Set the checkbox state based on the stored value
+  checkbox.checked = storedValue === 'true';
+
+  // Apply line-through effect if checkbox is checked
+  if (checkbox.checked) {
+    item.style.textDecoration = 'line-through';
+  }
+
+  // Add event listener to update line-through effect and store checkbox value in local storage
+  checkbox.addEventListener('change', function() {
+    if (checkbox.checked) {
+      item.style.textDecoration = 'line-through';
+    } else {
+      item.style.textDecoration = 'none';
+    }
+    localStorage.setItem(item.textContent, checkbox.checked);
+  });
+});

@@ -8,7 +8,7 @@ html {
 body {
   background: #fff;
   color: black;
-  font-family: "Varela Round", "Open Sans", sans-serif;
+  /* font-family: "Varela Round", "Open Sans", sans-serif; */
 }
 
 .card {
@@ -47,7 +47,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Varela Round", "Raleway", sans-serif;
+  /* font-family: "Varela Round", "Raleway", sans-serif; */
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -158,7 +158,7 @@ h6 {
 #header #logo h1 {
   font-size: 36px;
   margin: 0;
-  font-family: "Varela Round", "Raleway", sans-serif;
+  /* font-family: "Varela Round", "Raleway", sans-serif; */
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -210,7 +210,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   color: rgba(202, 206, 221, 0.8);
-  font-family: "Varela Round", "Raleway", sans-serif;
+  /* font-family: "Varela Round", "Raleway", sans-serif; */
   font-weight: 600;
   font-size: 14px;
   white-space: nowrap;
@@ -491,7 +491,7 @@ h6 {
 #hero h1 {
   text-transform: uppercase;
   z-index: 1;
-  color: black;
+  color: #c7a877;
   font-weight: 900;
   font-size: 5vw;
   text-align: center;
@@ -581,7 +581,7 @@ h6 {
   border-radius: 0;
 }
 #hero .about-btn {
-  font-family: "Varela Round", "Raleway", sans-serif;
+  /* font-family: "Varela Round", "Raleway", sans-serif; */
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -862,7 +862,7 @@ li input[type="checkbox"]:checked + span {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "Varela Round", "Raleway", sans-serif;
+  /* font-family: "Varela Round", "Raleway", sans-serif; */
   font-weight: 700;
   color: #fff;
 }
@@ -874,7 +874,7 @@ li input[type="checkbox"]:checked + span {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Varela Round", "Raleway", sans-serif;
+  /* font-family: "Varela Round", "Raleway", sans-serif; */
   color: #fff;
 }
 #footer .footer-top .social-links a {
